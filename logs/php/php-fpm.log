@@ -33,3 +33,7 @@
 [27-Jul-2023 19:20:58] NOTICE: exiting, bye-bye!
 [27-Jul-2023 19:21:01] NOTICE: fpm is running, pid 4826
 [27-Jul-2023 19:21:01] NOTICE: ready to handle connections
+[27-Jul-2023 23:02:45] NOTICE: Terminating ...
+[27-Jul-2023 23:02:45] NOTICE: exiting, bye-bye!
+[28-Jul-2023 19:41:45] NOTICE: fpm is running, pid 3973
+[28-Jul-2023 19:41:45] NOTICE: ready to handle connections
