@@ -1,0 +1,85 @@
+0000.246 (R) [notice] Looking for db archive: file name: backup_2023-07-29-1500_Jadoo_9da980d666e2-db.gz
+0000.246 (R) [notice] Archive is expected to be size: 434.8 KB: OK
+0000.247 (R) [notice] Looking for plugins archive: file name: backup_2023-07-29-1500_Jadoo_9da980d666e2-plugins.zip
+0000.247 (R) [notice] Archive is expected to be size: 17513.2 KB: OK
+0000.248 (R) [notice] Looking for themes archive: file name: backup_2023-07-29-1500_Jadoo_9da980d666e2-themes.zip
+0000.248 (R) [notice] Archive is expected to be size: 10679.2 KB: OK
+0000.249 (R) [notice] Looking for uploads archive: file name: backup_2023-07-29-1500_Jadoo_9da980d666e2-uploads.zip
+0000.249 (R) [notice] Archive is expected to be size: 6746 KB: OK
+0000.249 (R) [notice] Looking for others archive: file name: backup_2023-07-29-1500_Jadoo_9da980d666e2-others.zip
+0000.250 (R) [notice] Archive is expected to be size: 0.2 KB: OK
+0000.254 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.519 (R) [notice] Unpacking backup... (backup_2023-07-29-1500_Jadoo_9da980d666e2-db.gz, 0.4 Mb)
+0000.522 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0003.202 (R) [notice] Enabling Maintenance mode&#8230;
+0003.806 (R) [notice] Backup of: http://jadoo.local
+0003.811 (R) [notice] Content URL: http://jadoo.local/wp-content
+0003.812 (R) [notice] Uploads URL: http://jadoo.local/wp-content/uploads
+0003.812 (R) [notice] Old table prefix: wp_
+0003.812 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0003.812 (R) [notice] Site information: multisite = 0
+0003.812 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0003.857 (R) [notice] New table prefix: ns_
+0004.061 (R) [notice] Processing table (InnoDB):  wp_options - will restore as: ns_options
+0010.174 (R) [notice] Atomic restore: dropping original table (wp_options)
+0010.843 (R) [notice] Atomic restore: renaming new table (ns_options) to final table name (wp_options)
+0011.690 (R) [notice] Processing table (InnoDB):  wp_users - will restore as: ns_users
+0013.301 (R) [notice] Atomic restore: dropping original table (wp_users)
+0013.845 (R) [notice] Atomic restore: renaming new table (ns_users) to final table name (wp_users)
+0014.183 (R) [notice] Processing table (InnoDB):  wp_usermeta - will restore as: ns_usermeta
+0015.424 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0015.902 (R) [notice] Atomic restore: renaming new table (ns_usermeta) to final table name (wp_usermeta)
+0016.238 (R) [notice] Processing table (InnoDB):  wp_commentmeta - will restore as: ns_commentmeta
+0017.448 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0018.158 (R) [notice] Atomic restore: renaming new table (ns_commentmeta) to final table name (wp_commentmeta)
+0018.683 (R) [notice] Processing table (InnoDB):  wp_comments - will restore as: ns_comments
+0020.872 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0021.274 (R) [notice] Atomic restore: renaming new table (ns_comments) to final table name (wp_comments)
+0021.698 (R) [notice] Processing table (InnoDB):  wp_links - will restore as: ns_links
+0022.883 (R) [notice] Atomic restore: dropping original table (wp_links)
+0023.318 (R) [notice] Atomic restore: renaming new table (ns_links) to final table name (wp_links)
+0023.920 (R) [notice] Processing table (InnoDB):  wp_postmeta - will restore as: ns_postmeta
+0031.484 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0032.052 (R) [notice] Atomic restore: renaming new table (ns_postmeta) to final table name (wp_postmeta)
+0032.454 (R) [notice] Processing table (InnoDB):  wp_posts - will restore as: ns_posts
+0039.146 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0039.937 (R) [notice] Atomic restore: renaming new table (ns_posts) to final table name (wp_posts)
+0040.328 (R) [notice] Processing table (InnoDB):  wp_term_relationships - will restore as: ns_term_relationships
+0041.702 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0042.170 (R) [notice] Atomic restore: renaming new table (ns_term_relationships) to final table name (wp_term_relationships)
+0042.645 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy - will restore as: ns_term_taxonomy
+0044.203 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0044.649 (R) [notice] Atomic restore: renaming new table (ns_term_taxonomy) to final table name (wp_term_taxonomy)
+0045.084 (R) [notice] Processing table (InnoDB):  wp_termmeta - will restore as: ns_termmeta
+0046.303 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0046.829 (R) [notice] Atomic restore: renaming new table (ns_termmeta) to final table name (wp_termmeta)
+0047.229 (R) [notice] Processing table (InnoDB):  wp_terms - will restore as: ns_terms
+0048.927 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0049.375 (R) [notice] Atomic restore: renaming new table (ns_terms) to final table name (wp_terms)
+0050.154 (R) [notice] Processing table (InnoDB):  wp_e_events - will restore as: ns_e_events
+0051.749 (R) [notice] Disabling Maintenance mode&#8230;
+0051.749 (R) [notice] Atomic restore: dropping original table (wp_e_events)
+0052.432 (R) [notice] Atomic restore: renaming new table (ns_e_events) to final table name (wp_e_events)
+0052.988 (R) [notice] Finished: lines processed: 49 in 52.45 seconds
+0052.989 (R) [notice] Cleaning up rubbish...
+0053.190 (R) [notice] Unpacking backup... (backup_2023-07-29-1500_Jadoo_9da980d666e2-plugins.zip, 17.1 MB)
+0053.810 (R) [notice] Unzip progress: 1002 out of 2770 files (7.6 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Exceptions/InstanceFlavorError.php)
+0054.317 (R) [notice] Unzip progress: 2003 out of 2770 files (21.9 MB, plugins/updraftplus/central/commands.php)
+0055.133 (R) [notice] Unzip progress: 2770 out of 2770 files (61 MB, plugins/elementor/assets/js/packages/ui.strings.js)
+0055.165 (R) [notice] Moving old data out of the way...
+0055.541 (R) [notice] Moving unpacked backup into place...
+0055.923 (R) [notice] Cleaning up rubbish...
+0056.187 (R) [notice] Unpacking backup... (backup_2023-07-29-1500_Jadoo_9da980d666e2-themes.zip, 10.4 MB)
+0056.542 (R) [notice] Unzip progress: 450 out of 450 files (12.4 MB, themes/twentytwentyone/image.php)
+0056.548 (R) [notice] Moving old data out of the way...
+0056.613 (R) [notice] Moving unpacked backup into place...
+0056.676 (R) [notice] Cleaning up rubbish...
+0056.955 (R) [notice] Unpacking backup... (backup_2023-07-29-1500_Jadoo_9da980d666e2-uploads.zip, 6.6 MB)
+0057.146 (R) [notice] Unzip progress: 58 out of 58 files (6.6 MB, uploads/2023/07/Decore-1-150x150.png)
+0057.151 (R) [notice] Moving old data out of the way...
+0057.160 (R) [notice] Moving unpacked backup into place...
+0057.174 (R) [notice] Cleaning up rubbish...
+0057.416 (R) [notice] Unpacking backup... (backup_2023-07-29-1500_Jadoo_9da980d666e2-others.zip, 0 MB)
+0057.562 (R) [notice] Unzip progress: 1 out of 1 files (28 B, index.php)
+0057.566 (R) [notice] Cleaning up rubbish...
+0058.492 (R) [notice] Restore successful!

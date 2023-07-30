@@ -1,0 +1,120 @@
+0000.269 () Opened log file at time: Sat, 29 Jul 2023 15:02:50 +0000 on http://jadoo.local
+0000.270 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.9 (fpm-fcgi, Linux rahman-Inspiron-N5040 5.15.0-78-generic #85~20.04.1-Ubuntu SMP Mon Jul 17 09:42:39 UTC 2023 x86_64) MySQL: 8.0.16 (max packet size=33554432) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.2M | 6M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.270 () Free space on disk containing Updraft's temporary directory: 147317.5 MB
+0000.536 () Restore setup, now closing connection and starting restore over AJAX.
+0000.105 () Opened log file at time: Sat, 29 Jul 2023 15:02:52 +0000 on http://jadoo.local
+0000.106 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 8.1.9 (fpm-fcgi, Linux rahman-Inspiron-N5040 5.15.0-78-generic #85~20.04.1-Ubuntu SMP Mon Jul 17 09:42:39 UTC 2023 x86_64) MySQL: 8.0.16 (max packet size=33554432) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.6M | 4M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.106 () Free space on disk containing Updraft's temporary directory: 147317.1 MB
+0000.107 () Ensuring WP_Filesystem is setup for a restore
+0000.108 () WP_Filesystem is setup and ready for a restore
+0000.245 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_e_events"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.247 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.254 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.519 () Entity: db
+0000.519 () restore_backup(backup_file=backup_2023-07-29-1500_Jadoo_9da980d666e2-db.gz, type=db, info=a:0:{}, last_one=)
+0000.519 () Unpacking backup... (backup_2023-07-29-1500_Jadoo_9da980d666e2-db.gz, 0.4 Mb)
+0000.520 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.522 () Database successfully unpacked
+0000.522 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.522 () Using direct MySQL access; value of use_mysqli is: 1
+0000.523 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0003.202 () Max packet size: 32 MB
+0003.202 () Entering maintenance mode
+0003.202 () Enabling Maintenance mode&#8230;
+0003.806 () Backup of: http://jadoo.local
+0003.811 () Content URL: http://jadoo.local/wp-content
+0003.812 () Uploads URL: http://jadoo.local/wp-content/uploads
+0003.812 () Old table prefix: wp_
+0003.812 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0003.812 () Site information: multisite=0
+0003.812 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0003.857 () New table prefix: ns_
+0004.061 () Processing table (InnoDB): wp_options - will restore as: ns_options
+0010.174 () Atomic restore: dropping original table (wp_options)
+0010.843 () Atomic restore: renaming new table (ns_options) to final table name (wp_options)
+0011.201 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0011.690 () Processing table (InnoDB): wp_users - will restore as: ns_users
+0013.301 () Atomic restore: dropping original table (wp_users)
+0013.845 () Atomic restore: renaming new table (ns_users) to final table name (wp_users)
+0014.182 () Processing table (InnoDB): wp_usermeta - will restore as: ns_usermeta
+0015.424 () Atomic restore: dropping original table (wp_usermeta)
+0015.902 () Atomic restore: renaming new table (ns_usermeta) to final table name (wp_usermeta)
+0016.238 () Processing table (InnoDB): wp_commentmeta - will restore as: ns_commentmeta
+0017.448 () Atomic restore: dropping original table (wp_commentmeta)
+0018.158 () Atomic restore: renaming new table (ns_commentmeta) to final table name (wp_commentmeta)
+0018.683 () Processing table (InnoDB): wp_comments - will restore as: ns_comments
+0020.872 () Atomic restore: dropping original table (wp_comments)
+0021.274 () Atomic restore: renaming new table (ns_comments) to final table name (wp_comments)
+0021.698 () Processing table (InnoDB): wp_links - will restore as: ns_links
+0022.883 () Atomic restore: dropping original table (wp_links)
+0023.318 () Atomic restore: renaming new table (ns_links) to final table name (wp_links)
+0023.920 () Processing table (InnoDB): wp_postmeta - will restore as: ns_postmeta
+0031.484 () Atomic restore: dropping original table (wp_postmeta)
+0032.052 () Atomic restore: renaming new table (ns_postmeta) to final table name (wp_postmeta)
+0032.454 () Processing table (InnoDB): wp_posts - will restore as: ns_posts
+0039.145 () Atomic restore: dropping original table (wp_posts)
+0039.936 () Atomic restore: renaming new table (ns_posts) to final table name (wp_posts)
+0040.328 () Processing table (InnoDB): wp_term_relationships - will restore as: ns_term_relationships
+0041.702 () Atomic restore: dropping original table (wp_term_relationships)
+0042.170 () Atomic restore: renaming new table (ns_term_relationships) to final table name (wp_term_relationships)
+0042.645 () Processing table (InnoDB): wp_term_taxonomy - will restore as: ns_term_taxonomy
+0044.203 () Atomic restore: dropping original table (wp_term_taxonomy)
+0044.649 () Atomic restore: renaming new table (ns_term_taxonomy) to final table name (wp_term_taxonomy)
+0045.084 () Processing table (InnoDB): wp_termmeta - will restore as: ns_termmeta
+0046.303 () Atomic restore: dropping original table (wp_termmeta)
+0046.829 () Atomic restore: renaming new table (ns_termmeta) to final table name (wp_termmeta)
+0047.229 () Processing table (InnoDB): wp_terms - will restore as: ns_terms
+0048.927 () Atomic restore: dropping original table (wp_terms)
+0049.375 () Atomic restore: renaming new table (ns_terms) to final table name (wp_terms)
+0050.154 () Processing table (InnoDB): wp_e_events - will restore as: ns_e_events
+0051.748 () Unlocking database and leaving maintenance mode
+0051.749 () Disabling Maintenance mode&#8230;
+0051.749 () Atomic restore: dropping original table (wp_e_events)
+0052.431 () Atomic restore: renaming new table (ns_e_events) to final table name (wp_e_events)
+0052.988 () Finished: lines processed: 49 in 52.45 seconds
+0052.989 () Cleaning up rubbish...
+0053.189 () Entity: plugins
+0053.190 () restore_backup(backup_file=backup_2023-07-29-1500_Jadoo_9da980d666e2-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:60:"/home/rahman/Local Sites/jadoo/app/public/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0053.190 () Unpacking backup... (backup_2023-07-29-1500_Jadoo_9da980d666e2-plugins.zip, 17.1 MB)
+0053.190 () Unzipping backup_2023-07-29-1500_Jadoo_9da980d666e2-plugins.zip to /home/rahman/Local Sites/jadoo/app/public/wp-content/upgrade/6a8f06cf/ using UpdraftPlus_ZipArchive, starting index 0
+0053.810 () Unzip progress: 1002 out of 2770 files (7.6 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Exceptions/InstanceFlavorError.php)
+0054.317 () Unzip progress: 2003 out of 2770 files (21.9 MB, plugins/updraftplus/central/commands.php)
+0055.134 () Unzip progress: 2770 out of 2770 files (61 MB, plugins/elementor/assets/js/packages/ui.strings.js)
+0055.165 () Moving old data: filesystem method / updraft_dir is potentially possible
+0055.165 () Moving old data: can potentially use wp_filesystem method / -old
+0055.165 () Moving old data out of the way...
+0055.538 () Top-level entities being moved: simple-custom-css, updraftplus, index.php, elementor
+0055.541 () Moving unpacked backup into place...
+0055.920 () Top-level entities being moved: simple-custom-css, updraftplus, index.php, elementor
+0055.923 () Cleaning up rubbish...
+0056.186 () Entity: themes
+0056.186 () restore_backup(backup_file=backup_2023-07-29-1500_Jadoo_9da980d666e2-themes.zip, type=themes, info=a:3:{s:4:"path";s:59:"/home/rahman/Local Sites/jadoo/app/public/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0056.186 () Unpacking backup... (backup_2023-07-29-1500_Jadoo_9da980d666e2-themes.zip, 10.4 MB)
+0056.187 () Unzipping backup_2023-07-29-1500_Jadoo_9da980d666e2-themes.zip to /home/rahman/Local Sites/jadoo/app/public/wp-content/upgrade/bc528aaf/ using UpdraftPlus_ZipArchive, starting index 0
+0056.542 () Unzip progress: 450 out of 450 files (12.4 MB, themes/twentytwentyone/image.php)
+0056.547 () Moving old data: filesystem method / updraft_dir is potentially possible
+0056.547 () Moving old data: can potentially use wp_filesystem method / -old
+0056.547 () Moving old data out of the way...
+0056.612 () Top-level entities being moved: twentytwentyone, twentytwentytwo, twentytwentythree, index.php
+0056.613 () Moving unpacked backup into place...
+0056.675 () Top-level entities being moved: twentytwentyone, twentytwentytwo, twentytwentythree, index.php
+0056.676 () Cleaning up rubbish...
+0056.955 () Entity: uploads
+0056.955 () restore_backup(backup_file=backup_2023-07-29-1500_Jadoo_9da980d666e2-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:60:"/home/rahman/Local Sites/jadoo/app/public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0056.955 () Unpacking backup... (backup_2023-07-29-1500_Jadoo_9da980d666e2-uploads.zip, 6.6 MB)
+0056.956 () Unzipping backup_2023-07-29-1500_Jadoo_9da980d666e2-uploads.zip to /home/rahman/Local Sites/jadoo/app/public/wp-content/upgrade/162485f3/ using UpdraftPlus_ZipArchive, starting index 0
+0057.146 () Unzip progress: 58 out of 58 files (6.6 MB, uploads/2023/07/Decore-1-150x150.png)
+0057.151 () Moving old data: filesystem method / updraft_dir is potentially possible
+0057.151 () Moving old data: can potentially use wp_filesystem method / -old
+0057.151 () Moving old data out of the way...
+0057.160 () Moving unpacked backup into place...
+0057.174 () Cleaning up rubbish...
+0057.416 () Entity: others
+0057.416 () restore_backup(backup_file=backup_2023-07-29-1500_Jadoo_9da980d666e2-others.zip, type=others, info=a:2:{s:4:"path";s:52:"/home/rahman/Local Sites/jadoo/app/public/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0057.416 () Unpacking backup... (backup_2023-07-29-1500_Jadoo_9da980d666e2-others.zip, 0 MB)
+0057.417 () Unzipping backup_2023-07-29-1500_Jadoo_9da980d666e2-others.zip to /home/rahman/Local Sites/jadoo/app/public/wp-content/upgrade/8c8bce87/ using UpdraftPlus_ZipArchive, starting index 0
+0057.562 () Unzip progress: 1 out of 1 files (28 B, index.php)
+0057.566 () Cleaning up rubbish...
+0058.076 () Elementor's clear cache method exists and will be executed
+0058.492 () Restore successful!
+0058.492 () Restore successful
